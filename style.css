@@ -1,0 +1,45 @@
+
+.circle {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+
+.mid-circle {
+    fill: #000;
+}
+.minute-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 10;
+    stroke-miterlimit: 10;
+}
+
+
+.hour-arm {
+    fill: none;
+    stroke: #000;
+    stroke-width: 20;
+    stroke-miterlimit: 10;
+}
+.second-arm {
+
+     fill: none;
+     stroke: #000;
+     stroke-width:5;
+     stroke-miterlimit: 10;
+}
+.hour-marks{
+     fill:none;
+     stroke:#000;
+     stroke-width:15;
+     stroke-mitherlimit:10;
+}
+#hour,
+#minute,
+#second {
+    transform-origin: 625px 325px;
+    transition: transform .5s ease-in-out;
+}
